@@ -1,0 +1,12 @@
+.venv/
+data/
+.env
+.pyc
+__pycache__
+*.egg-info
+.cache/*
+.DS_Store
+tags
+*~
+
+!data/test.db

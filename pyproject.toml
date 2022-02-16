@@ -1,0 +1,12 @@
+[tool.poetry]
+authors = ["Dan Rubin <drubin@cargurus.com>"]
+description = "__DESCRIPTION__"
+name = "wordle-stats"
+packages = [
+  {include = "wordle-stats", from = "src"},
+]
+version = "0.1.0"
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
